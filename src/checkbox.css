@@ -1,0 +1,36 @@
+.chk { 
+    display: none; 
+} 
+ 
+.chk + label { 
+    background-color: #FFF; 
+    border: 1px solid #C1CACA; 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05); 
+    padding: 7px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    position: relative; 
+} 
+.chk + label:active { 
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1); 
+} 
+ 
+.chk:checked + label { 
+    background-color: #ECF2F7; 
+    border: 1px solid #92A1AC; 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1); 
+    color: #243441; 
+} 
+ 
+.chk:checked + label:after { 
+    content: '\2714'; 
+    position: absolute; 
+    top: -2px; 
+    left: 0px; 
+    color: #758794; 
+    width: 100%; 
+    font-size:12px;
+    text-align: center; 
+    padding: 1px 0 0 0; 
+    vertical-align: text-top; 
+} 

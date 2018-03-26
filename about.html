@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://www.heigo.com.cn/airCard.jsp -->
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>经典案例</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="src/push.js"></script>
+    <script type="text/javascript" src="src/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="src/jquery.placeholder.min.js"></script>
+    <script type="text/javascript" src="src/jquery.form.js"></script>
+    <script type="text/javascript" src="src/jquery.cookie.js"></script>
+    <script type="text/javascript" src="src/pdfobject.js"></script>
+    <link rel="stylesheet" href="./src/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./src/bootstrap-theme.min.css" type="text/css">
+    <link rel="shortcut icon" href="http://www.heigo.com.cn/resource/image/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="src/bootstrap.min.js"></script>
+
+    <link href="./src/boilerplate.css" rel="stylesheet" type="text/css">
+    <link href="./src/offical.css" rel="stylesheet" type="text/css">
+    <link href="./src/banner.css" rel="stylesheet" type="text/css">
+    <link href="./src/checkbox.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="src/security.js"></script>
+    <script type="text/javascript" src="src/respond.min.js"></script>
+    <script type="text/javascript" src="src/offical.js"></script>
+    <script src="src/11.0.1.js" id="sozz"></script>
+    <script charset="utf-8" src="src/ab77b6ea7f3fbf79.js"></script>
+    <style id="holderjs-style" type="text/css"></style>
+</head>
+<body style="" class=" __plain_text_READY__">
+<!--敬请期待 -->
+<div id="waitMsg" style="position:absolute;top:42%;left:50%;background-color:#FFFFFF;border-radius:5px;border:thin solid #E5E5E5;
+	filter:alpha(opacity:30);opacity:0.8;margin:-50px 0 0 -100px;width:190px;height:70px;z-index:99;text-align:center;
+	background-image:url(/resource/officalImg/test/waitMsg.png);display:none;"></div>
+<!--qq等待弹窗 -->
+<div id="waitGif"><img src="./src/onload.gif"></div>
+<!--浏览器版本检查 -->
+<div id="IeHide" onclick="hideDiv();" style="position:absolute;top:0px;left:0px;width:1920px;height:1230px;background-color:#4C4C4C;
+		   text-align:center;filter:alpha(opacity:30);opacity:0.8;display:none;z-index:1000">
+</div>
+<!--登录状态验证 -->
+
+    <!--<div class="fluid title1">-->
+        <!--<div class="wraper">-->
+            <!--<div class="biaoyu">黑狗科技 公交出行大数据引领者</div>-->
+            <!--<div class="biaoti">-->
+                <!--<a href="http://www.heigo.com.cn/helpCenter.jsp" class="hover-a">[帮助中心]</a>-->
+            <!--</div>-->
+            <!--<div class="biaoti">-->
+                <!--<img src="./src/mobile.png">-->
+                <!--<a href="http://www.heigo.com.cn/contact.jsp" class="hover-a">联系我们</a>-->
+            <!--</div>-->
+            <!--<div class="biaoti">-->
+                <!--<img src="./src/service.png">-->
+                <!--<a class="hover-a">客服电话4000921858</a>-->
+            <!--</div>-->
+            <!--<div class="biaoti">-->
+                <!--<a href="http://www.heigo.com.cn/about.jsp" class="hover-a">关于我们</a>-->
+            <!--</div>-->
+
+        <!--</div>-->
+    <!--</div>-->
+    <div class="fluid title2"  style="position: fixed;z-index: 1000;background: white">
+        <div class="wraper">
+            <div style="float:left;line-height: 80px;cursor:pointer;">
+                <img src="image/logo.png" onclick="location.href=&quot;/index.jsp&quot;"
+                     alt="黑狗科技logo" width="201" height="79">
+            </div>
+            <div class="biaoti2">
+                <a href="#" id="a5">关于我们</a>
+            </div>
+            <div class="biaoti2">
+                <a href="#" id="a4">商务合作</a>
+            </div>
+            <div class="biaoti2">
+                <a href="#" id="a3">行业信息</a>
+            </div>
+            <div class="biaoti2">
+                <a href="./about.html" id="a2">经典案例</a>
+            </div>
+            <div class="biaoti2">
+                <a href="./index.html" id="a1">首页</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style type="text/css">
+    a.hover-a:visited {
+        color: #666666
+    }
+
+    a.hover-b:visited {
+        color: #FF9A30
+    }
+
+    div.moreImg:hover {
+        background-image: url(/resource/officalImg/icon/more2.png);
+    }
+    .banner{
+        padding-top: 80px;
+    }
+</style>
+<script type="text/javascript">
+    var ctx = '';
+</script>
+
+
+<div class="banner">
+    <ul class="banList">
+        <li class="active"><img src="image/banner1.jpg" style="min-height:320px;"></li>
+        <li class=""><img src="image/banner2.jpg" style="min-height:320px;"></li>
+        <li class=""><img src="image/banner3.jpg" style="min-height:320px;"></li>
+        <!--<li><img src="/resource/officalImg/image/banner4.png" style="min-height:320px;"></li>
+        <li><img src="/resource/officalImg/image/banner5.png" style="min-height:320px;"></li>-->
+        <li class=""><img src="image/banner4.jpg" style="min-height:320px;"></li>
+    </ul>
+    <div class="fomW">
+        <div class="jsNav">
+            <a href="javascript:;" class="trigger current"></a>
+            <a href="javascript:;" class="trigger"></a>
+            <a href="javascript:;" class="trigger"></a>
+            <!--<a href="javascript:;" class="trigger"></a>
+            <a href="javascript:;" class="trigger"></a>-->
+            <a href="javascript:;" class="trigger"></a>
+        </div>
+    </div>
+</div>
+
+
+<div style="min-height:500px;padding-top:30px;">
+    <div class="wraper">
+        <div class="leftService">
+            <div style="width:230px;height:45px;border-radius:5px;background-color:#0161AD;display:table-cell;vertical-align:middle;">
+                <span style="color:#fff;font-size:18px;">空中发卡</span>&nbsp;
+                <span style="color:#fff;font-size:12px;">AIR CARD</span>
+            </div>
+            <img width="230px" height="14px" src="./src/topBordor.png">
+            <div style="margin-top:-4px;width:230px;height:200px;border-radius:3px;border:thin solid #E5E5E5;box-shadow:1px 1px 1px 0.5px #E5E5E5;">
+                <div id="air1" class="leftMenu after1">什么是空中发卡</div>
+                <hr style="margin:5px 5%;width:90%;">
+                <div id="air2" class="leftMenu">NFC与全终端手机</div>
+                <hr style="margin:5px 5%;width:90%;">
+                <!--<div id="air3" class="leftMenu">支持的手机型号</div>-->
+                <!--<hr style="margin:5px 5%;width:90%;">-->
+                <!--<div id="air4" class="leftMenu">品牌手机开卡演示</div>-->
+            </div>
+        </div>
+        <div id="showair1" class="showair" style="">
+            <div style="height:45px;background-image:url(/resource/officalImg/service3/titleBackground.png);">
+                <span style="padding:65px;font-size:18px;color:#0161ad;font-family:Microsoft YaHei">什么是空中发卡</span>
+            </div>
+            　　空中发卡是指市政交通一卡通持卡人可以通过TSM可信服务平台，将交通卡信息直接下载到手机或IC卡等安全载体中（这个就是“空中发卡”），将NFC手机终端变成交通一卡通，实现刷手机乘车、消费，充值、
+            查询等业务也可直接在手机上办理。<br>
+            　　实现手机发卡后，一个手机就等效于一张实体卡，功能与使用方法同实体卡片一样，可以实现乘坐公交，地铁，移动支付等功能。把实体“卡片”直接下载安装到手机上，用户不用再到业务营业网点去申请实体卡片，
+            免去奔波劳累之苦，从而大大提升了用户的使用体验。<br>
+            　　支持空中发卡的手机，就相当于一个“卡包”，里面可以发多个不同种类的卡片，比如公交卡，银行闪付卡，会员卡，企业门禁卡，停车卡等；<br><br>
+            <img width="660px" height="250px" src="./src/air1.png"><br><br>
+            　　随着支持空中发卡的NFC手机的普及，预计未来发到手机上的卡片会越来越多，甚至会逐步取代目前的实体卡片，“一机在手，生活无忧”的时代即将来临！<br><br>
+        </div>
+        <div id="showair2" class="showair" style="display: none;">
+            <div style="height:45px;background-image:url(/resource/officalImg/service3/titleBackground.png);">
+                <span style="padding:65px;font-size:18px;color:#0161ad;font-family:Microsoft YaHei">NFC与全终端手机</span>
+            </div>
+            　　北京黑狗科技有限公司手机交通卡业务自2016年8月正式上线，率先通过NFC手机上实现了北京市政交通一卡通的空中发卡业务，用户可以通过手机中Pay钱包进行卡片的开通申请，已开通的卡片具备充值，
+            消费，查询余额等功能。目前已支持了7个品牌（华为、小米、三星、努比亚、魅族、一加、中兴）等主流170余款安卓手机的空中发卡和充值业务，用户即将突破50万，月开卡量最大3万张，目前月充值金额最大达800万。<br><br>
+            <img width="660px" height="250px" src="./src/air2.png"><br><br>
+            　　黑狗科技后续会陆续上线其它手机厂家的NFC手机，以及其它城市的公交一卡通空中发卡业务，敬请关注和期待！
+        </div>
+        <!--<div id="showair3" class="showair" style="display: none;">-->
+            <!--<div style="height:45px;background-image:url(/resource/officalImg/service3/titleBackground.png);">-->
+                <!--<span style="padding:65px;font-size:18px;color:#0161ad;font-family:Microsoft YaHei">支持的手机型号</span>-->
+            <!--</div>-->
+            <!--目前支持的手机的型号如下：<br>-->
+            <!--<table border="1">-->
+                <!--<tbody>-->
+                <!--<tr>-->
+                    <!--<th>城市</th>-->
+                    <!--<th>手机厂家</th>-->
+                    <!--<th>手机名称</th>-->
+                    <!--<th>手机型号</th>-->
+                    <!--<th>备注</th>-->
+                <!--</tr>-->
+
+                <!--<tr>-->
+                    <!--<td rowspan="81" style="vertical-align:middle;">北京</td>-->
+                    <!--<td rowspan="30" style="vertical-align:middle;">三星</td>-->
+                    <!--<td>Galaxy Note5</td>-->
+                    <!--<td>SM-N9200</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Galaxy S6 edge+</td>-->
+                    <!--<td>SM-G9280</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Galaxy A5(2016)</td>-->
+                    <!--<td>SM-A5100</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Galaxy A7(2016)</td>-->
+                    <!--<td>SM-A7100</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Galaxy A9</td>-->
+                    <!--<td>SM-A9000</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Galaxy A5(2016)</td>-->
+                    <!--<td>SM-A5108</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Galaxy A7(2016)</td>-->
+                    <!--<td>SM-A7108</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Galaxy A9 高配版</td>-->
+                    <!--<td>SM-A9100</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung Galaxy S7</td>-->
+                    <!--<td>SM-G9300</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung Galaxy S7 Edge</td>-->
+                    <!--<td>SM-G9350</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung Galaxy C5</td>-->
+                    <!--<td>SM-C5000</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung Galaxy C7</td>-->
+                    <!--<td>SM-C7000</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung Galaxy S6</td>-->
+                    <!--<td>SM-G9200</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung Galaxy S6</td>-->
+                    <!--<td>SM-G9208</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung Galaxy S6</td>-->
+                    <!--<td>SM-G9209</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Galaxy Note7</td>-->
+                    <!--<td>SM-N9300</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung Galaxy S7 CMCC</td>-->
+                    <!--<td>SM-G9308</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_S8</td>-->
+                    <!--<td>SM-G9500</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_S8_Plus</td>-->
+                    <!--<td>SM-G9550</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_W2017</td>-->
+                    <!--<td>SM-W2017</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_C7 Pro</td>-->
+                    <!--<td>SM-C7010</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_C7 Pro CMCC</td>-->
+                    <!--<td>SM-C7018</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_S8_CMCC</td>-->
+                    <!--<td>SM-G9508</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_C5 Pro</td>-->
+                    <!--<td>SM-C5010</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_C5 Pro CMCC</td>-->
+                    <!--<td>SM-C5018</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_C9&nbsp;CMCC</td>-->
+                    <!--<td>SM-C9008</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_C9</td>-->
+                    <!--<td>SM-C9000</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_SM-G9298</td>-->
+                    <!--<td>SM-G9298</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_Note8</td>-->
+                    <!--<td>SM-N9500</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Samsung_Galaxy_Note8_CMCC</td>-->
+                    <!--<td>SM-N9508</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+
+                <!--<tr>-->
+                    <!--<td rowspan="28" style="vertical-align:middle;">华为</td>-->
+                    <!--<td>荣耀V8</td>-->
+                    <!--<td>KNT-AL20</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>荣耀V8</td>-->
+                    <!--<td>KNT-AL10</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>荣耀8</td>-->
+                    <!--<td>KNT-AL10</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>荣耀8</td>-->
+                    <!--<td>FRD-AL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>荣耀8</td>-->
+                    <!--<td>FRD-DL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>荣耀8</td>-->
+                    <!--<td>FRD-CL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>mate 9</td>-->
+                    <!--<td>MHA-TL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>mate 9</td>-->
+                    <!--<td>MHA-AL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>曼哈顿</td>-->
+                    <!--<td>M300-AL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>曼哈顿</td>-->
+                    <!--<td>M300-TL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>mate 9 pro</td>-->
+                    <!--<td>LON-AL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>长岛</td>-->
+                    <!--<td>M400-AL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>mate 9 pro 保时捷版</td>-->
+                    <!--<td>LON-AL00-PD</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Duke</td>-->
+                    <!--<td>BBQ-AL20</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>Duke</td>-->
+                    <!--<td>BBQ-TL30</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>荣耀V9</td>-->
+                    <!--<td>DUK-AL20</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>荣耀V9</td>-->
+                    <!--<td>DUK-TL30</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>大V</td>-->
+                    <!--<td>D189-AL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>大V</td>-->
+                    <!--<td>D189-TL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>P10 Plus</td>-->
+                    <!--<td>VKY-TL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>P10 Plus</td>-->
+                    <!--<td>VKY-AL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>P10</td>-->
+                    <!--<td>VTR-TL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>P10</td>-->
+                    <!--<td>VTR-AL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>小V</td>-->
+                    <!--<td>D188-AL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>小V</td>-->
+                    <!--<td>D188-TL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>荣耀9</td>-->
+                    <!--<td>STF-AL10</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>荣耀9</td>-->
+                    <!--<td>STF-AL00</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>荣耀9</td>-->
+                    <!--<td>STF-TL10</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+
+                <!--<tr>-->
+                    <!--<td rowspan="6" style="vertical-align:middle;">小米</td>-->
+                    <!--<td>小米 5</td>-->
+                    <!--<td>MI 5</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>小米 5s</td>-->
+                    <!--<td>MI 5s</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>小米 5s Plus</td>-->
+                    <!--<td>MI 5s Plus</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>小米 MIX</td>-->
+                    <!--<td> MIX</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>小米 6</td>-->
+                    <!--<td>sagit</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>小米 note 2</td>-->
+                    <!--<td>Mi Note 2</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+
+                <!--<tr>-->
+                    <!--<td rowspan="6" style="vertical-align:middle;">努比亚</td>-->
+                    <!--<td>nubia mini7</td>-->
+                    <!--<td>NX569J</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>nubia mini7</td>-->
+                    <!--<td>NX569H</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>nubia Z11</td>-->
+                    <!--<td>NX563J</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>nubia Z11</td>-->
+                    <!--<td>NX549J</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>nubia Z13 lite</td>-->
+                    <!--<td>NX591J</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>nubia Z17miniS</td>-->
+                    <!--<td>NX589J</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+
+                <!--<tr>-->
+                    <!--<td rowspan="4" style="vertical-align:middle;">一加</td>-->
+                    <!--<td>ONEPLUS A3000</td>-->
+                    <!--<td>ONEPLUS A3000</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>ONEPLUS A3003</td>-->
+                    <!--<td>ONEPLUS A3003</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>ONEPLUS A3010</td>-->
+                    <!--<td>ONEPLUS A3010</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>OnePlus 5</td>-->
+                    <!--<td>ONEPLUS A5000</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+
+                <!--<tr>-->
+                    <!--<td rowspan="2" style="vertical-align:middle;">锤子</td>-->
+                    <!--<td>M1</td>-->
+                    <!--<td>SM901</td>-->
+                    <!--<td>待上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>M1L</td>-->
+                    <!--<td>SM919</td>-->
+                    <!--<td>待上线</td>-->
+                <!--</tr>-->
+
+                <!--<tr>-->
+                    <!--<td rowspan="1" style="vertical-align:middle;">魅族</td>-->
+                    <!--<td>魅族PRO 6 Plus</td>-->
+                    <!--<td>PRO 6 Plus</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+
+                <!--<tr>-->
+                    <!--<td rowspan="1" style="vertical-align:middle;">中兴</td>-->
+                    <!--<td>AXON7</td>-->
+                    <!--<td>ZTE A2017</td>-->
+                    <!--<td>待上线</td>-->
+                <!--</tr>-->
+
+                <!--<tr>-->
+                    <!--<td rowspan="3" style="vertical-align:middle;">出门问问</td>-->
+                    <!--<td>WE11108</td>-->
+                    <!--<td>Mercury</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>WE11078</td>-->
+                    <!--<td>Lily</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>WE11098</td>-->
+                    <!--<td>Lotus</td>-->
+                    <!--<td>已上线</td>-->
+                <!--</tr>-->
+                <!--</tbody>-->
+            <!--</table>-->
+        <!--</div>-->
+        <!--<div id="showair4" class="showair" style="display: none;">-->
+            <!--<div style="height:45px;background-image:url(/resource/officalImg/service3/titleBackground.png);">-->
+                <!--<span style="padding:65px;font-size:18px;color:#0161ad;font-family:Microsoft YaHei">品牌手机开卡演示</span>-->
+            <!--</div>-->
+            <!--三星、华为、小米——手机开卡流程演示图片<br>-->
+            <!--<div class="logo" onclick="$(&#39;#pdfModal1&#39;).modal(&#39;show&#39;);"-->
+                 <!--style="background-image:url(/resource/officalImg/logo/huawei.png);"></div>-->
+            <!--<div class="logo" onclick="$(&#39;#pdfModal2&#39;).modal(&#39;show&#39;);"-->
+                 <!--style="background-image:url(/resource/officalImg/logo/sanxing.png);"></div>-->
+            <!--<div class="logo" onclick="$(&#39;#pdfModal3&#39;).modal(&#39;show&#39;);"-->
+                 <!--style="background-image:url(/resource/officalImg/logo/xiaomi.png);"></div>-->
+        <!--</div>-->
+        <!--<div class="rightQuestion">-->
+            <span style="font-size:18px;color:#666666;">常见问题</span>
+            <ul style="margin-top:0;padding:10px 0 10px 25px;height:380px;;border:thin solid #E5E5E5;border-top:5px solid #E5E5E5;">
+                <li id="0" class="askLi">&nbsp;<span style="font-size:14px;">什么是NFC手机，有什么用？</span></li>
+                <li id="1" class="askLi">&nbsp;<span style="font-size:14px;">什么手机具备NFC功能？</span></li>
+                <li id="2" class="askLi">&nbsp;<span style="font-size:14px;">如何添加卡片？</span></li>
+                <li id="3" class="askLi">&nbsp;<span style="font-size:14px;">如何管理我的卡片？</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 开卡流程pdf模态框 -->
+<div class="modal fade" id="pdfModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width:1000px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">华为手机空开流程</h4>
+            </div>
+            <div class="modal-body">
+                <div id="pdfDiv1" style="height:700px">
+                    <object data="./src/aircard1.pdf" type="application/pdf" width="100%"
+                            height="100%"></object>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="pdfModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width:1000px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">三星手机空开流程</h4>
+            </div>
+            <div class="modal-body">
+                <div id="pdfDiv2" style="height:700px">
+                    <object data="./src/aircard2.pdf" type="application/pdf" width="100%"
+                            height="100%"></object>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="pdfModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width:1000px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">小米手机空开流程</h4>
+            </div>
+            <div class="modal-body">
+                <div id="pdfDiv3" style="height:700px">
+                    <object data="./src/aircard3.pdf" type="application/pdf" width="100%"
+                            height="100%"></object>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="fluid footer ">
+    <div class="footerText">
+        <div class="row">
+            <div class="col-xs-5">
+                <h5>XXX</h5>
+                <img src="image/qrcode.png" style="width: 75px" alt="">
+            </div>
+            <div class="col-xs-7 row">
+
+                <div class="col-xs-4 text-left">
+                    <h5>服务与支持</h5>
+                    <p>联系我们</p>
+                    <p>支持计划</p>
+                    <p>公告</p>
+                    <p>提倡建议</p>
+                </div>
+                <div class="col-xs-4 text-left">
+                    <h5>快速入口</h5>
+                    <p>举报中心</p>
+                    <p>信任中心</p>
+                    <p>客户案例</p>
+                </div>
+                <div class="col-xs-4 text-left">
+                    <h5>资源和社区</h5>
+                    <p>帮助文档</p>
+                    <p>问答</p>
+                    <p>社区</p>
+                    <p>博客</p>
+                </div>
+
+            </div>
+        </div>
+        <br><br>
+        <div class="text-center">Copyright © 2016 - 2020 有限公司 备案京ICP备16020432号-1 京公网安备11010802016906号</div>
+    </div>
+
+</div>
+<style type="text/css">
+    a.footerText:visited {
+        color: #666666
+    }
+</style>
+
+
+<style type="text/css">
+    #a2 {
+        color: #333333;
+        text-decoration: none;
+        color: #2C8AC8;
+        font-weight: bold;
+    }
+
+    #a1, #a3, #a4, #a5 {
+        color: #333333;
+        text-decoration: none;
+    }
+
+    .leftMenu {
+        height: 37px;
+        width: 230px;
+        margin: 5px 0;
+        padding: 0 30px;
+        line-height: 37px;
+        font-size: 15px;
+        text-align: left;
+        color: #999999;
+    }
+
+    .leftMenu:hover {
+        color: #0161AD;
+        cursor: pointer;
+        border-left: 3px solid #0161AD;
+    }
+
+    .after1 {
+        color: #0161AD;
+        border-left: 3px solid #0161AD;
+        background: url(/resource/officalImg/service3/icon12.png) 190px center no-repeat !important;
+    }
+
+    .after2 {
+        color: #0161AD;
+        border-left: 3px solid #0161AD;
+        background: url(/resource/officalImg/service3/icon22.png) 190px center no-repeat !important;
+    }
+
+    .after3 {
+        color: #0161AD;
+        border-left: 3px solid #0161AD;
+        background: url(/resource/officalImg/service3/icon32.png) 190px center no-repeat !important;
+    }
+
+    .after4 {
+        color: #0161AD;
+        border-left: 3px solid #0161AD;
+        background: url(/resource/officalImg/service3/icon42.png) 190px center no-repeat !important;
+    }
+
+    td {
+        width: 130px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    #air1 {
+        background: url(/resource/officalImg/service3/icon11.png) 190px center no-repeat
+    }
+
+    #air2 {
+        background: url(/resource/officalImg/service3/icon21.png) 190px center no-repeat
+    }
+
+    #air3 {
+        background: url(/resource/officalImg/service3/icon31.png) 190px center no-repeat
+    }
+
+    #air4 {
+        background: url(/resource/officalImg/service3/icon41.png) 190px center no-repeat
+    }
+
+    #air1:hover {
+        background: url(/resource/officalImg/service3/icon12.png) 190px center no-repeat
+    }
+
+    #air2:hover {
+        background: url(/resource/officalImg/service3/icon22.png) 190px center no-repeat
+    }
+
+    #air3:hover {
+        background: url(/resource/officalImg/service3/icon32.png) 190px center no-repeat
+    }
+
+    #air4:hover {
+        background: url(/resource/officalImg/service3/icon42.png) 190px center no-repeat
+    }
+
+    .logo {
+        margin: 10px;
+        width: 200px;
+        height: 166px;
+        float: left;
+        border-radius: 5px;
+        border: thin solid #E5E5E5;
+        cursor: pointer
+    }
+
+    .logo:hover {
+        border-color: #4c4c4c;
+    }
+
+    .askLi {
+        font-size: 10px;
+        color: #999999;
+        line-height: 30px;
+        cursor: pointer;
+    }
+
+    .askLi:hover {
+        color: #0161AD;
+    }
+</style>
+<script type="text/javascript">
+    $(function () {
+        new PDFObject({url: "resource/document/aircard1.pdf"}).embed("pdfDiv1");
+        new PDFObject({url: "resource/document/aircard2.pdf"}).embed("pdfDiv2");
+        new PDFObject({url: "resource/document/aircard3.pdf"}).embed("pdfDiv3");
+
+        //跳转问题详细页面
+        $('.askLi').click(function () {
+            var questionId = $(this).prop('id');
+            location.href = '/question.jsp?questionId=' + questionId + '';
+        });
+
+        //不同业务的展示
+        $('#air1').click(function () {
+            $('#showair1').fadeIn();
+            $('#showair2').css('display', 'none');
+            $('#showair3').css('display', 'none');
+            $('#showair4').css('display', 'none');
+            $('#air1').addClass('after1');
+            $('#air2').removeClass('after2');
+            $('#air3').removeClass('after3');
+            $('#air4').removeClass('after4');
+        });
+        $('#air2').click(function () {
+            $('#showair2').fadeIn();
+            $('#showair1').css('display', 'none');
+            $('#showair3').css('display', 'none');
+            $('#showair4').css('display', 'none');
+            $('#air2').addClass('after2');
+            $('#air1').removeClass('after1');
+            $('#air3').removeClass('after3');
+            $('#air4').removeClass('after4');
+        });
+        $('#air3').click(function () {
+            $('#showair3').fadeIn();
+            $('#showair1').hide();
+            $('#showair2').hide();
+            $('#showair4').hide();
+            $('#air3').addClass('after3');
+            $('#air1').removeClass('after1');
+            $('#air2').removeClass('after2');
+            $('#air4').removeClass('after4');
+        });
+        $('#air4').click(function () {
+            $('#showair4').fadeIn();
+            $('#showair1').hide();
+            $('#showair2').hide();
+            $('#showair3').hide();
+            $('#air4').addClass('after4');
+            $('#air1').removeClass('after1');
+            $('#air2').removeClass('after2');
+            $('#air3').removeClass('after3');
+        });
+
+    });
+
+</script>
+
+</body>
+</html>

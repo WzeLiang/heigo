@@ -1,0 +1,43 @@
+.logo{
+    height: 79px;
+    vertical-align: middle;
+    background: white;
+    text-align: center;
+}
+.header{
+    background: white;
+    min-height: 80px;
+    width: 100%;
+    text-align: center;
+}
+.header-logo{
+    display: none;
+}
+.header-list{
+    margin: 0 auto;
+    width: 1170px;
+    height: 100%;
+    font-size: 0;
+    line-height: 80px;
+}
+.header-list .header-item{
+    display: inline-block;
+}
+.header-list .header-item a{
+    color: black;
+    text-decoration: none;
+    width: 234px;
+    display: block;
+    font-size: medium;
+}
+.header-list .header-item a:visited{
+    color: #551a8b;
+}
+.active{
+    color: #2C8AC8;
+    border-bottom: 1px solid #2C8AC8;
+}
+.noactive{
+    color: black;
+    border: none;
+}
